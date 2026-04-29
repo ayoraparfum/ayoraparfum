@@ -1,0 +1,2104 @@
+{
+  "brand": {
+    "name": "Ayora Parfum",
+    "tagline": {
+      "fr": "L'Art du Parfum au Maroc",
+      "ar": "فن العطر في المغرب"
+    },
+    "phone": "0623892123",
+    "whatsapp": "212623892123",
+    "tiktok": "@ayora.parfum",
+    "city": "Maroc",
+    "delivery": {
+      "fr": "Livraison partout au Maroc 🚚",
+      "ar": "التوصيل في جميع أنحاء المغرب 🚚"
+    }
+  },
+  "nav": {
+    "home": {
+      "fr": "Accueil",
+      "ar": "الرئيسية"
+    },
+    "products": {
+      "fr": "Parfums",
+      "ar": "العطور"
+    },
+    "guide": {
+      "fr": "Guide Olfactif",
+      "ar": "دليل العطور"
+    },
+    "about": {
+      "fr": "Notre Histoire",
+      "ar": "قصتنا"
+    },
+    "contact": {
+      "fr": "Contact",
+      "ar": "تواصل معنا"
+    },
+    "cart": {
+      "fr": "Panier",
+      "ar": "السلة"
+    },
+    "quiz": {
+      "fr": "Quiz Parfum",
+      "ar": "اختبار العطر"
+    }
+  },
+  "hero": {
+    "headline": {
+      "fr": "Découvrez Votre Signature Olfactive",
+      "ar": "اكتشف بصمتك العطرية"
+    },
+    "sub": {
+      "fr": "Des fragrances d'exception, livrées au cœur du Maroc",
+      "ar": "عطور استثنائية تُوصَّل إلى قلب المغرب"
+    },
+    "cta": {
+      "fr": "Explorer la Collection",
+      "ar": "استكشف المجموعة"
+    },
+    "cta2": {
+      "fr": "Quiz Olfactif",
+      "ar": "اختبار العطر"
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "brand": "Jean Paul Gaultier",
+      "name": "La Belle",
+      "name_ar": "لا بيل",
+      "description": {
+        "fr": "La Belle est une œuvre d'art olfactive signée Jean Paul Gaultier — un jus gourmand et sensuel niché dans un flacon en forme de buste féminin iconique. Elle marie la douceur veloutée de la vanille à l'élégance de la rose, enveloppée d'un sillage chaud et irrésistible qui reste en mémoire.",
+        "ar": "لا بيل تحفة عطرية من جان بول غوتييه — عطر حلواني حسي في قارورة تمثّل الجذع الأنثوي الأيقوني. تمزج نعومة الفانيليا المخملية بأناقة الوردة، في سحابة دافئة وساحرة تبقى في الذاكرة طويلاً."
+      },
+      "notes": {
+        "top": {
+          "fr": "Poire, Bergamote, Magnolia",
+          "ar": "كمثرى، برغموت، مانيوليا"
+        },
+        "heart": {
+          "fr": "Rose, Jasmin Sambac, Fleur d'Oranger",
+          "ar": "ورد، ياسمين سامباك، زهر البرتقال"
+        },
+        "base": {
+          "fr": "Vanille Crémeuse, Praline, Patchouli, Musc Blanc",
+          "ar": "فانيليا كريمية، برالين، باتشولي، مسك أبيض"
+        }
+      },
+      "family": {
+        "fr": "Floral Gourmand",
+        "ar": "زهري حلواني"
+      },
+      "gender": "femme",
+      "occasion": [
+        "evening",
+        "special",
+        "daily"
+      ],
+      "season": [
+        "autumn",
+        "winter"
+      ],
+      "intensity": 4,
+      "longevity": "8-10h",
+      "prices": {
+        "5ml": 70,
+        "10ml": 130
+      },
+      "image": "https://i.pinimg.com/736x/62/b2/ee/62b2ee15dd7226f1768a91b036624691.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/62/b2/ee/62b2ee15dd7226f1768a91b036624691.jpg",
+        "https://i.pinimg.com/736x/87/49/7b/87497bde2107d694e405f30ba547e1c7.jpg"
+      ],
+      "color": "#8B1A4A",
+      "badge": "Bestseller"
+    },
+    {
+      "id": 2,
+      "brand": "Versace",
+      "name": "Crystal Noir",
+      "name_ar": "كريستال نوار",
+      "description": {
+        "fr": "Crystal Noir de Versace est une fragrance mystérieuse et envoûtante, né pour la femme qui ose. Un cœur floral intense d'hibiscus et de gardénia repose sur un fond ambré et musqué profond, créant un sillage sensuel et sophistiqué qui ne passe jamais inaperçu.",
+        "ar": "كريستال نوار من فيرساتشي عطر غامض وساحر، وُلد للمرأة الجريئة. قلب زهري كثيف من الهيبيسكوس والغاردينيا يستريح على قاعدة عنبرية مسكية عميقة، يخلق سحابة حسية راقية لا تمر مرور الكرام."
+      },
+      "notes": {
+        "top": {
+          "fr": "Hibiscus, Poivre Noir, Cardamome",
+          "ar": "هيبيسكوس، فلفل أسود، هيل"
+        },
+        "heart": {
+          "fr": "Gardénia, Fleur d'Oranger, Noix de Coco",
+          "ar": "غاردينيا، زهر البرتقال، جوز الهند"
+        },
+        "base": {
+          "fr": "Ambre, Musc, Bois de Santal, Civette",
+          "ar": "عنبر، مسك، خشب الصندل، زباد"
+        }
+      },
+      "family": {
+        "fr": "Oriental Floral",
+        "ar": "شرقي زهري"
+      },
+      "gender": "femme",
+      "occasion": [
+        "evening",
+        "special",
+        "night"
+      ],
+      "season": [
+        "autumn",
+        "winter"
+      ],
+      "intensity": 4,
+      "longevity": "8-10h",
+      "prices": {
+        "5ml": 75,
+        "10ml": 140
+      },
+      "image": "https://i.pinimg.com/736x/e2/8b/fc/e28bfcdd0a9ee6aca4698fc2548f31b4.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/e2/8b/fc/e28bfcdd0a9ee6aca4698fc2548f31b4.jpg",
+        "https://i.pinimg.com/736x/e5/61/af/e561af8409c6c859dca036c02879e120.jpg"
+      ],
+      "color": "#2C0A3A",
+      "badge": "Exclusif"
+    },
+    {
+      "id": 3,
+      "brand": "Giorgio Armani",
+      "name": "Sì Passione",
+      "name_ar": "سي باسيوني",
+      "description": {
+        "fr": "Sì Passione est une déclaration d'amour flamboyante signée Giorgio Armani. La vivacité du cassis et de la framboise explose en tête avant de céder la place à un cœur de rose intense et charnel. La base de patchouli et de vanille confère une sensualité profonde et inoubliable.",
+        "ar": "سي باسيوني إعلان حب متألّق من جورجيو أرماني. تنفجر حيوية الكشمش والتوت في البداية، لتُفسح المجال لقلب من الورد الكثيف والحسي. قاعدة الباتشولي والفانيليا تمنحه عمقاً حسياً لا يُنسى."
+      },
+      "notes": {
+        "top": {
+          "fr": "Cassis Noir, Framboise, Bergamote",
+          "ar": "كشمش أسود، توت العليق، برغموت"
+        },
+        "heart": {
+          "fr": "Rose Centifolia, Rose de Mai, Freesia",
+          "ar": "وردة سانتيفوليا، وردة مايو، فريزيا"
+        },
+        "base": {
+          "fr": "Patchouli, Vanille, Bois de Santal, Labdanum",
+          "ar": "باتشولي، فانيليا، خشب الصندل، لبدانوم"
+        }
+      },
+      "family": {
+        "fr": "Floral Fruité",
+        "ar": "زهري فاكهي"
+      },
+      "gender": "femme",
+      "occasion": [
+        "evening",
+        "special",
+        "daily"
+      ],
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "intensity": 4,
+      "longevity": "8-10h",
+      "prices": {
+        "5ml": 60,
+        "10ml": 110
+      },
+      "image": "https://i.pinimg.com/1200x/2f/84/57/2f8457b540bc075a72cb351134920093.jpg",
+      "images": [
+        "https://i.pinimg.com/1200x/2f/84/57/2f8457b540bc075a72cb351134920093.jpg",
+        "https://i.pinimg.com/736x/ab/cb/eb/abcbeb7a307a48319ca5dcbce240ab36.jpg"
+      ],
+      "color": "#C0392B",
+      "badge": "Nouveau"
+    },
+    {
+      "id": 4,
+      "brand": "Prada",
+      "name": "Paradoxe",
+      "name_ar": "باراداكس",
+      "description": {
+        "fr": "Prada Paradoxe est une fragrance qui redéfinit la féminité — à la fois familière et surprenante, douce et affirmée. Ses notes de néroli lumineux fusionnent avec un cœur musqué ambré pour créer un paradoxe olfactif captivant, signature d'une femme moderne et confiante.",
+        "ar": "بارادوكس من برادا عطر يُعيد تعريف الأنوثة — مألوف ومفاجئ في آنٍ واحد، ناعم وحازم. نوتات النيرولي المضيئة تندمج مع قلب مسكي عنبري لتخلق مفارقة عطرية آسرة، توقيع المرأة العصرية الواثقة."
+      },
+      "notes": {
+        "top": {
+          "fr": "Néroli, Citron, Bergamote, Mandarine",
+          "ar": "نيرولي، ليمون، برغموت، ماندرين"
+        },
+        "heart": {
+          "fr": "Musc Blanc, Jasmin, Fleur d'Oranger, Ambre",
+          "ar": "مسك أبيض، ياسمين، زهر البرتقال، عنبر"
+        },
+        "base": {
+          "fr": "Vanille, Santal, Bois de Cèdre, Musc",
+          "ar": "فانيليا، صندل، خشب الأرز، مسك"
+        }
+      },
+      "family": {
+        "fr": "Floral Musqué",
+        "ar": "زهري مسكي"
+      },
+      "gender": "femme",
+      "occasion": [
+        "daily",
+        "evening",
+        "work"
+      ],
+      "season": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "intensity": 3,
+      "longevity": "8-10h",
+      "prices": {
+        "5ml": 70,
+        "10ml": 130
+      },
+      "image": "https://i.pinimg.com/736x/b0/e4/9a/b0e49ac1932972c4488a8aac68ec4251.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/b0/e4/9a/b0e49ac1932972c4488a8aac68ec4251.jpg",
+        "https://i.pinimg.com/736x/6e/4b/72/6e4b722515d07329d4329254854050c7.jpg"
+      ],
+      "color": "#E8B5A0",
+      "badge": "Tendance"
+    },
+    {
+      "id": 5,
+      "brand": "Yves Saint Laurent",
+      "name": "Libre",
+      "name_ar": "ليبر",
+      "description": {
+        "fr": "Libre d'YSL incarne la liberté absolue — une fragrance audacieuse et contrastée qui mêle la lavande française lavée à la chaleur solaire de la fleur d'oranger absolue. C'est la signature olfactive de la femme libre, qui vit selon ses propres règles, intense et lumineuse à la fois.",
+        "ar": "ليبر من إيف سان لوران يجسّد الحرية المطلقة — عطر جريء ومتباين يمزج خزامى فرنسية ناصعة بدفء زهر البرتقال الشمسي. إنه التوقيع العطري للمرأة الحرة التي تعيش وفق قواعدها الخاصة، كثيف ومضيء في آنٍ معاً."
+      },
+      "notes": {
+        "top": {
+          "fr": "Lavande Lavée, Mandarine, Cassis Noir",
+          "ar": "خزامى غسيل، ماندرين، كشمش أسود"
+        },
+        "heart": {
+          "fr": "Fleur d'Oranger Absolue, Jasmin Sambac, Lavande",
+          "ar": "زهر البرتقال الأبسولو، ياسمين سامباك، خزامى"
+        },
+        "base": {
+          "fr": "Vanille Bourbon, Musk Chaud, Bois de Cèdre, Ambre",
+          "ar": "فانيليا بوربون، مسك دافئ، خشب الأرز، عنبر"
+        }
+      },
+      "family": {
+        "fr": "Floral Lavande Ambré",
+        "ar": "زهري خزامى عنبري"
+      },
+      "gender": "femme",
+      "occasion": [
+        "daily",
+        "work",
+        "special"
+      ],
+      "season": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "intensity": 4,
+      "longevity": "10-12h",
+      "prices": {
+        "5ml": 75,
+        "10ml": 140
+      },
+      "image": "https://i.pinimg.com/736x/52/54/94/525494e6fb6edf7c327c7136e51b991d.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/52/54/94/525494e6fb6edf7c327c7136e51b991d.jpg",
+        "https://i.pinimg.com/736x/52/54/94/525494e6fb6edf7c327c7136e51b991d.jpg",
+        "https://i.pinimg.com/736x/af/29/15/af2915645b5d114ab9d5f2ed9ebd3402.jpg"
+      ],
+      "color": "#D4A853",
+      "badge": "Iconique"
+    },
+    {
+      "id": 6,
+      "brand": "Burberry",
+      "name": "Goddess",
+      "name_ar": "غودس",
+      "description": {
+        "fr": "Burberry Goddess est une ode à la féminité divine — une fragrance lumineuse et enveloppante qui célèbre la puissance intérieure de chaque femme. La lavande s'épanouit avec une sensualité inattendue grâce à un accord vanillé opulent et un musc doux comme une seconde peau.",
+        "ar": "غودس من باربيري قصيدة في الأنوثة الإلهية — عطر مضيء ودافئ يحتفي بالقوة الداخلية لكل امرأة. تتفتّح الخزامى بحسية غير متوقعة بفضل أكورد الفانيليا الفاخر والمسك الناعم كطبقة ثانية من الجلد."
+      },
+      "notes": {
+        "top": {
+          "fr": "Lavande, Bergamote, Feuille de Cassis",
+          "ar": "خزامى، برغموت، ورق الكشمش"
+        },
+        "heart": {
+          "fr": "Lavande Absolue, Jasmin, Héliotrope",
+          "ar": "خزامى أبسولو، ياسمين، هيليوتروب"
+        },
+        "base": {
+          "fr": "Vanille Crémeuse, Musc Blanc, Ambre, Bois de Cachemire",
+          "ar": "فانيليا كريمية، مسك أبيض، عنبر، خشب الكشمير"
+        }
+      },
+      "family": {
+        "fr": "Floral Lavande Vanillé",
+        "ar": "زهري خزامى فانيليا"
+      },
+      "gender": "femme",
+      "occasion": [
+        "daily",
+        "special",
+        "evening"
+      ],
+      "season": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "intensity": 3,
+      "longevity": "8-10h",
+      "prices": {
+        "5ml": 70,
+        "10ml": 130
+      },
+      "image": "https://i.pinimg.com/736x/8d/e1/4e/8de14ea871deb05fb16b5da35fc93da3.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/8d/e1/4e/8de14ea871deb05fb16b5da35fc93da3.jpg",
+        "https://i.pinimg.com/736x/66/6f/a8/666fa834000c5176ce977bc05f7d2203.jpg"
+      ],
+      "color": "#C5A46B",
+      "badge": "Bestseller"
+    }
+  ],
+  "scent_families": [
+    {
+      "name": {
+        "fr": "Floral",
+        "ar": "زهري"
+      },
+      "icon": "🌸",
+      "desc": {
+        "fr": "Doux, romantique, féminin",
+        "ar": "ناعم، رومانسي، أنثوي"
+      }
+    },
+    {
+      "name": {
+        "fr": "Oriental",
+        "ar": "شرقي"
+      },
+      "icon": "✨",
+      "desc": {
+        "fr": "Chaud, sensuel, enveloppant",
+        "ar": "دافئ، حسي، محيط"
+      }
+    },
+    {
+      "name": {
+        "fr": "Boisé",
+        "ar": "خشبي"
+      },
+      "icon": "🌲",
+      "desc": {
+        "fr": "Terreux, naturel, sophistiqué",
+        "ar": "ترابي، طبيعي، راقٍ"
+      }
+    },
+    {
+      "name": {
+        "fr": "Musqué",
+        "ar": "مسكي"
+      },
+      "icon": "🌫️",
+      "desc": {
+        "fr": "Pur, addictif, peau",
+        "ar": "نقي، مثير للإدمان، جلدي"
+      }
+    },
+    {
+      "name": {
+        "fr": "Oud",
+        "ar": "عود"
+      },
+      "icon": "🪵",
+      "desc": {
+        "fr": "Mystérieux, profond, luxueux",
+        "ar": "غامض، عميق، فاخر"
+      }
+    },
+    {
+      "name": {
+        "fr": "Gourmand",
+        "ar": "حلواني"
+      },
+      "icon": "🍯",
+      "desc": {
+        "fr": "Sucré, gourmand, réconfortant",
+        "ar": "حلو، شهي، مريح"
+      }
+    }
+  ],
+  "quiz": {
+    "title": {
+      "fr": "Quel est votre parfum idéal?",
+      "ar": "ما هو عطرك المثالي؟"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question": {
+          "fr": "Quelle est votre humeur favorite?",
+          "ar": "ما هو مزاجك المفضل؟"
+        },
+        "options": [
+          {
+            "label": {
+              "fr": "Romantique & Rêveuse",
+              "ar": "رومانسية وحالمة"
+            },
+            "value": "floral"
+          },
+          {
+            "label": {
+              "fr": "Mystérieuse & Intense",
+              "ar": "غامضة وقوية"
+            },
+            "value": "oriental"
+          },
+          {
+            "label": {
+              "fr": "Libre & Audacieuse",
+              "ar": "حرة وجريئة"
+            },
+            "value": "fresh"
+          },
+          {
+            "label": {
+              "fr": "Sensuelle & Élégante",
+              "ar": "حسية وأنيقة"
+            },
+            "value": "gourmand"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": {
+          "fr": "Pour quelle occasion cherchez-vous?",
+          "ar": "لأي مناسبة تبحث؟"
+        },
+        "options": [
+          {
+            "label": {
+              "fr": "Usage quotidien",
+              "ar": "الاستخدام اليومي"
+            },
+            "value": "daily"
+          },
+          {
+            "label": {
+              "fr": "Soirée spéciale",
+              "ar": "مناسبة خاصة"
+            },
+            "value": "evening"
+          },
+          {
+            "label": {
+              "fr": "Bureau / Travail",
+              "ar": "المكتب / العمل"
+            },
+            "value": "work"
+          },
+          {
+            "label": {
+              "fr": "Romantique",
+              "ar": "رومانسية"
+            },
+            "value": "special"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": {
+          "fr": "Quelle intensité préférez-vous?",
+          "ar": "ما شدة العطر التي تفضلها؟"
+        },
+        "options": [
+          {
+            "label": {
+              "fr": "Légère & Discrète",
+              "ar": "خفيفة وهادئة"
+            },
+            "value": "light"
+          },
+          {
+            "label": {
+              "fr": "Modérée & Équilibrée",
+              "ar": "معتدلة ومتوازنة"
+            },
+            "value": "medium"
+          },
+          {
+            "label": {
+              "fr": "Forte & Présente",
+              "ar": "قوية وواضحة"
+            },
+            "value": "strong"
+          },
+          {
+            "label": {
+              "fr": "Très intense & Envoûtante",
+              "ar": "كثيفة جداً وساحرة"
+            },
+            "value": "intense"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": {
+          "fr": "Quelle saison vous inspire le plus?",
+          "ar": "أي موسم يُلهمك أكثر؟"
+        },
+        "options": [
+          {
+            "label": {
+              "fr": "Printemps & Été",
+              "ar": "الربيع والصيف"
+            },
+            "value": "spring"
+          },
+          {
+            "label": {
+              "fr": "Automne",
+              "ar": "الخريف"
+            },
+            "value": "autumn"
+          },
+          {
+            "label": {
+              "fr": "Hiver",
+              "ar": "الشتاء"
+            },
+            "value": "winter"
+          },
+          {
+            "label": {
+              "fr": "Toute l'année",
+              "ar": "طوال العام"
+            },
+            "value": "all"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": {
+      "fr": "Notre Histoire",
+      "ar": "قصتنا"
+    },
+    "story": {
+      "fr": "Ayora Parfum est née d'une passion profonde pour l'art olfactif et d'un désir de rendre les grandes fragrances accessibles au cœur du Maroc. Fondée par des amoureux du parfum, notre maison sélectionne avec soin les plus belles créations des grandes maisons mondiales — de Paris à Milan — pour les livrer directement à vous, partout au Maroc.\n\nNous croyons que chaque parfum est une histoire, une émotion, une signature unique. Notre mission est de vous aider à trouver celle qui vous appartient.",
+      "ar": "وُلدت أيورا بارفان من شغف عميق بفن العطور ورغبة في إتاحة العطور الراقية في قلب المغرب. أسسها عاشقون للعطور، تختار دارنا بعناية أجمل إبداعات كبرى دور العالم — من باريس إلى ميلانو — لتوصيلها مباشرة إليكم في كل أنحاء المغرب.\n\nنؤمن أن كل عطر هو قصة، مشاعر، وتوقيع فريد. مهمتنا هي مساعدتك في إيجاد التوقيع الذي ينتمي إليك."
+    }
+  },
+  "ui": {
+    "addToCart": {
+      "fr": "Ajouter au panier",
+      "ar": "أضف للسلة"
+    },
+    "viewDetails": {
+      "fr": "Voir les détails",
+      "ar": "عرض التفاصيل"
+    },
+    "size": {
+      "fr": "Choisir la taille",
+      "ar": "اختر الحجم"
+    },
+    "total": {
+      "fr": "Total",
+      "ar": "المجموع"
+    },
+    "delivery": {
+      "fr": "Livraison",
+      "ar": "التوصيل"
+    },
+    "checkout": {
+      "fr": "Commander",
+      "ar": "اطلب الآن"
+    },
+    "search": {
+      "fr": "Rechercher un parfum...",
+      "ar": "ابحث عن عطر..."
+    },
+    "filter": {
+      "fr": "Filtrer",
+      "ar": "تصفية"
+    },
+    "compare": {
+      "fr": "Comparer",
+      "ar": "مقارنة"
+    },
+    "wishlist": {
+      "fr": "Favoris",
+      "ar": "المفضلة"
+    },
+    "freeSample": {
+      "fr": "Échantillon gratuit avec toute commande",
+      "ar": "عينة مجانية مع كل طلب"
+    },
+    "orderNow": {
+      "fr": "Commander sur WhatsApp",
+      "ar": "اطلب عبر واتساب"
+    },
+    "name": {
+      "fr": "Nom complet",
+      "ar": "الاسم الكامل"
+    },
+    "city": {
+      "fr": "Ville",
+      "ar": "المدينة"
+    },
+    "address": {
+      "fr": "Adresse exacte",
+      "ar": "العنوان بالتفصيل"
+    },
+    "phone": {
+      "fr": "Téléphone",
+      "ar": "الهاتف"
+    },
+    "send": {
+      "fr": "Envoyer la commande",
+      "ar": "إرسال الطلب"
+    },
+    "empty": {
+      "fr": "Votre panier est vide",
+      "ar": "سلتك فارغة"
+    },
+    "topNotes": {
+      "fr": "Notes de Tête",
+      "ar": "نوتات القمة"
+    },
+    "heartNotes": {
+      "fr": "Notes de Cœur",
+      "ar": "نوتات القلب"
+    },
+    "baseNotes": {
+      "fr": "Notes de Fond",
+      "ar": "نوتات القاعدة"
+    },
+    "intensity": {
+      "fr": "Intensité",
+      "ar": "الشدة"
+    },
+    "longevity": {
+      "fr": "Durée de tenue",
+      "ar": "مدة الثبات"
+    },
+    "occasion": {
+      "fr": "Occasion",
+      "ar": "المناسبة"
+    },
+    "season": {
+      "fr": "Saison",
+      "ar": "الموسم"
+    },
+    "seeAll": {
+      "fr": "Voir tout",
+      "ar": "عرض الكل"
+    },
+    "mightLike": {
+      "fr": "Vous pourriez aussi aimer",
+      "ar": "قد يعجبك أيضاً"
+    },
+    "startQuiz": {
+      "fr": "Commencer le Quiz",
+      "ar": "ابدأ الاختبار"
+    },
+    "nextQuestion": {
+      "fr": "Question suivante",
+      "ar": "السؤال التالي"
+    },
+    "getResult": {
+      "fr": "Voir mon résultat",
+      "ar": "عرض نتيجتي"
+    },
+    "yourPerfume": {
+      "fr": "Votre parfum idéal est",
+      "ar": "عطرك المثالي هو"
+    },
+    "deliveryBadge": {
+      "fr": "Livraison Maroc",
+      "ar": "توصيل المغرب"
+    },
+    "contactUs": {
+      "fr": "Nous contacter",
+      "ar": "تواصل معنا"
+    }
+  },
+  "cities": [
+    {
+      "name": "Casablanca",
+      "price": 20
+    },
+    {
+      "name": "Chellalat Mohammedia",
+      "price": 35
+    },
+    {
+      "name": "Mohammedia",
+      "price": 29
+    },
+    {
+      "name": "Ain Harrouda",
+      "price": 29
+    },
+    {
+      "name": "Nouacer",
+      "price": 29
+    },
+    {
+      "name": "Mediouna",
+      "price": 29
+    },
+    {
+      "name": "Dar Bouaza",
+      "price": 29
+    },
+    {
+      "name": "Errahma",
+      "price": 29
+    },
+    {
+      "name": "Bouskoura-Centre",
+      "price": 29
+    },
+    {
+      "name": "Bouskoura-Ouled Saleh",
+      "price": 29
+    },
+    {
+      "name": "Bouskoura-Ville Verte",
+      "price": 29
+    },
+    {
+      "name": "Deroua",
+      "price": 29
+    },
+    {
+      "name": "Tit Melil",
+      "price": 29
+    },
+    {
+      "name": "Tamaris",
+      "price": 29
+    },
+    {
+      "name": "Oulad Azzouz Dar 16",
+      "price": 35
+    },
+    {
+      "name": "Rabat",
+      "price": 35
+    },
+    {
+      "name": "Sale",
+      "price": 35
+    },
+    {
+      "name": "Tanger",
+      "price": 35
+    },
+    {
+      "name": "Marrakech",
+      "price": 35
+    },
+    {
+      "name": "Fes",
+      "price": 35
+    },
+    {
+      "name": "Meknes",
+      "price": 35
+    },
+    {
+      "name": "Agadir",
+      "price": 35
+    },
+    {
+      "name": "Oujda",
+      "price": 35
+    },
+    {
+      "name": "Nador",
+      "price": 35
+    },
+    {
+      "name": "Safi",
+      "price": 35
+    },
+    {
+      "name": "El jadida",
+      "price": 35
+    },
+    {
+      "name": "Khouribga",
+      "price": 35
+    },
+    {
+      "name": "Kenitra",
+      "price": 35
+    },
+    {
+      "name": "Beni Mellal",
+      "price": 35
+    },
+    {
+      "name": "Inzegane",
+      "price": 35
+    },
+    {
+      "name": "Aït Melloul",
+      "price": 35
+    },
+    {
+      "name": "Berrechid",
+      "price": 35
+    },
+    {
+      "name": "Settat",
+      "price": 35
+    },
+    {
+      "name": "Benslimane",
+      "price": 35
+    },
+    {
+      "name": "Sidi rahal",
+      "price": 35
+    },
+    {
+      "name": "Bouznika",
+      "price": 35
+    },
+    {
+      "name": "Had Soualem",
+      "price": 35
+    },
+    {
+      "name": "Essaouira",
+      "price": 35
+    },
+    {
+      "name": "Temara",
+      "price": 35
+    },
+    {
+      "name": "Bni yakhlef",
+      "price": 35
+    },
+    {
+      "name": "zaer",
+      "price": 35
+    },
+    {
+      "name": "El Mansouria",
+      "price": 35
+    },
+    {
+      "name": "Sidi Bouzid (safi)",
+      "price": 35
+    },
+    {
+      "name": "Tikiwin",
+      "price": 35
+    },
+    {
+      "name": "Tetouan",
+      "price": 39
+    },
+    {
+      "name": "Skhirat",
+      "price": 39
+    },
+    {
+      "name": "Tamesna",
+      "price": 39
+    },
+    {
+      "name": "Tamansourt",
+      "price": 39
+    },
+    {
+      "name": "Sala El Jadida",
+      "price": 39
+    },
+    {
+      "name": "Al Hoceima",
+      "price": 39
+    },
+    {
+      "name": "Laâyoune",
+      "price": 39
+    },
+    {
+      "name": "Dakhla",
+      "price": 39
+    },
+    {
+      "name": "Martil",
+      "price": 39
+    },
+    {
+      "name": "Mdiq",
+      "price": 39
+    },
+    {
+      "name": "Fnideq",
+      "price": 39
+    },
+    {
+      "name": "Guelmim",
+      "price": 39
+    },
+    {
+      "name": "Taroudant",
+      "price": 39
+    },
+    {
+      "name": "Tiznit",
+      "price": 39
+    },
+    {
+      "name": "Oulad Teima",
+      "price": 39
+    },
+    {
+      "name": "Drarga",
+      "price": 39
+    },
+    {
+      "name": "Biougra",
+      "price": 39
+    },
+    {
+      "name": "Chtouka - région Agadir",
+      "price": 39
+    },
+    {
+      "name": "Aourir Région Agadir",
+      "price": 39
+    },
+    {
+      "name": "Ait Amira",
+      "price": 39
+    },
+    {
+      "name": "Temsia",
+      "price": 39
+    },
+    {
+      "name": "Anza",
+      "price": 39
+    },
+    {
+      "name": "Laarache",
+      "price": 39
+    },
+    {
+      "name": "Assilah",
+      "price": 39
+    },
+    {
+      "name": "Ksar El Kebir",
+      "price": 39
+    },
+    {
+      "name": "Berkane",
+      "price": 39
+    },
+    {
+      "name": "Beni Ensar",
+      "price": 39
+    },
+    {
+      "name": "Selouane",
+      "price": 39
+    },
+    {
+      "name": "Guercif",
+      "price": 39
+    },
+    {
+      "name": "Taza",
+      "price": 39
+    },
+    {
+      "name": "Taounate",
+      "price": 39
+    },
+    {
+      "name": "Khemisset",
+      "price": 39
+    },
+    {
+      "name": "Tiflet",
+      "price": 39
+    },
+    {
+      "name": "Sidi Bouknadel",
+      "price": 39
+    },
+    {
+      "name": "Ouarzazate",
+      "price": 39
+    },
+    {
+      "name": "Midelt",
+      "price": 39,
+      "note": "45"
+    },
+    {
+      "name": "Khenifra",
+      "price": 39
+    },
+    {
+      "name": "Mrirt",
+      "price": 39
+    },
+    {
+      "name": "Kasba Tadla",
+      "price": 39
+    },
+    {
+      "name": "Fquih Ben Salah",
+      "price": 45
+    },
+    {
+      "name": "El Kelaa Des Sraghna",
+      "price": 39
+    },
+    {
+      "name": "Chichaoua",
+      "price": 39
+    },
+    {
+      "name": "Chefchaouen",
+      "price": 39
+    },
+    {
+      "name": "Bab Berred",
+      "price": 39
+    },
+    {
+      "name": "Saidia",
+      "price": 39
+    },
+    {
+      "name": "Benguerir",
+      "price": 39
+    },
+    {
+      "name": "Boujniba",
+      "price": 39
+    },
+    {
+      "name": "Azemmour",
+      "price": 39
+    },
+    {
+      "name": "Youssoufia",
+      "price": 39
+    },
+    {
+      "name": "Oued Zem",
+      "price": 39
+    },
+    {
+      "name": "Sebt Gzoula",
+      "price": 39
+    },
+    {
+      "name": "Sebt El Guerdane",
+      "price": 45
+    },
+    {
+      "name": "Ain Attig",
+      "price": 39
+    },
+    {
+      "name": "Ain El Aouda",
+      "price": 39
+    },
+    {
+      "name": "Sidi Bennour",
+      "price": 39
+    },
+    {
+      "name": "Moulay Abdellah",
+      "price": 39
+    },
+    {
+      "name": "Laattaouia",
+      "price": 39
+    },
+    {
+      "name": "Sidi Bouzid (el jadida)",
+      "price": 39
+    },
+    {
+      "name": "Harhoura",
+      "price": 39
+    },
+    {
+      "name": "Mers El Kheir",
+      "price": 39
+    },
+    {
+      "name": "Tahanaout",
+      "price": 39
+    },
+    {
+      "name": "Mehdia",
+      "price": 39
+    },
+    {
+      "name": "Oualidia",
+      "price": 39
+    },
+    {
+      "name": "Tlat Bouguedra",
+      "price": 39
+    },
+    {
+      "name": "Souira Guedima",
+      "price": 39
+    },
+    {
+      "name": "Echemmaia",
+      "price": 39
+    },
+    {
+      "name": "Skhour Rehamna",
+      "price": 39
+    },
+    {
+      "name": "Tamellalt",
+      "price": 39
+    },
+    {
+      "name": "Douar Lahna",
+      "price": 39
+    },
+    {
+      "name": "Leqliaa",
+      "price": 39
+    },
+    {
+      "name": "Tarast",
+      "price": 39
+    },
+    {
+      "name": "Loudaya",
+      "price": 39
+    },
+    {
+      "name": "Aknoul",
+      "price": 39
+    },
+    {
+      "name": "Oued Amlil",
+      "price": 39
+    },
+    {
+      "name": "Saiss",
+      "price": 39
+    },
+    {
+      "name": "Moulay Yâcoub",
+      "price": 39
+    },
+    {
+      "name": "Ghazoua",
+      "price": 39
+    },
+    {
+      "name": "Dcheira El Jihadia",
+      "price": 39
+    },
+    {
+      "name": "Cabo Negro",
+      "price": 39
+    },
+    {
+      "name": "Rencon",
+      "price": 39
+    },
+    {
+      "name": "El Gara",
+      "price": 39
+    },
+    {
+      "name": "Zeghanghane",
+      "price": 39
+    },
+    {
+      "name": "Tssoultante",
+      "price": 39
+    },
+    {
+      "name": "Harbile",
+      "price": 39
+    },
+    {
+      "name": "Dar Essalam",
+      "price": 39
+    },
+    {
+      "name": "Ben Ahmed",
+      "price": 39
+    },
+    {
+      "name": "Hettan",
+      "price": 39
+    },
+    {
+      "name": "Bounoir",
+      "price": 39
+    },
+    {
+      "name": "Ain chkaf",
+      "price": 39
+    },
+    {
+      "name": "Oulad Tayeb",
+      "price": 39
+    },
+    {
+      "name": "Sidi Hrazem",
+      "price": 39
+    },
+    {
+      "name": "Zaouiat Cheikh",
+      "price": 39
+    },
+    {
+      "name": "Bassatine El Menzeh",
+      "price": 39
+    },
+    {
+      "name": "Jaadar",
+      "price": 39
+    },
+    {
+      "name": "Afra",
+      "price": 39
+    },
+    {
+      "name": "Bouarg",
+      "price": 39
+    },
+    {
+      "name": "Madagh",
+      "price": 39
+    },
+    {
+      "name": "El-afak",
+      "price": 39
+    },
+    {
+      "name": "Ras El Ma - Cap de l'eau",
+      "price": 39
+    },
+    {
+      "name": "Laayayta",
+      "price": 39
+    },
+    {
+      "name": "Foum Oudi",
+      "price": 39
+    },
+    {
+      "name": "Had Boumoussa",
+      "price": 39
+    },
+    {
+      "name": "Bradia",
+      "price": 39
+    },
+    {
+      "name": "Aït Ishaq",
+      "price": 39
+    },
+    {
+      "name": "Tighassaline",
+      "price": 39
+    },
+    {
+      "name": "Aguelmous",
+      "price": 39
+    },
+    {
+      "name": "Ouaouizeght",
+      "price": 39
+    },
+    {
+      "name": "Beni Ayat",
+      "price": 39
+    },
+    {
+      "name": "Timoulilt",
+      "price": 39
+    },
+    {
+      "name": "Afourar",
+      "price": 39
+    },
+    {
+      "name": "Oulad M'barek",
+      "price": 39
+    },
+    {
+      "name": "Sidi Aïssa",
+      "price": 39
+    },
+    {
+      "name": "Oulad Ayad",
+      "price": 39
+    },
+    {
+      "name": "Dar Ould Zidouh",
+      "price": 39
+    },
+    {
+      "name": "Souk Sebt",
+      "price": 39
+    },
+    {
+      "name": "Sidi Jaber",
+      "price": 39
+    },
+    {
+      "name": "Oulad Zmam",
+      "price": 39
+    },
+    {
+      "name": "Oulad Ali",
+      "price": 39
+    },
+    {
+      "name": "Oulad Youssef",
+      "price": 39
+    },
+    {
+      "name": "Tagzirt",
+      "price": 39
+    },
+    {
+      "name": "Ighrem Laâlam",
+      "price": 39
+    },
+    {
+      "name": "Oulad Yaich",
+      "price": 39
+    },
+    {
+      "name": "Oulad Berhil",
+      "price": 45
+    },
+    {
+      "name": "Taliouine",
+      "price": 45
+    },
+    {
+      "name": "Massa",
+      "price": 45
+    },
+    {
+      "name": "Lagfifat",
+      "price": 45
+    },
+    {
+      "name": "Sidi Kacem",
+      "price": 45
+    },
+    {
+      "name": "Sidi Slimane",
+      "price": 45
+    },
+    {
+      "name": "Souk El Arbaa Du Gharb",
+      "price": 45
+    },
+    {
+      "name": "Sidi Allal El Bahraoui",
+      "price": 45
+    },
+    {
+      "name": "Sidi Yahya El Gharb",
+      "price": 45
+    },
+    {
+      "name": "Mechra Bel Ksiri",
+      "price": 45
+    },
+    {
+      "name": "Jorf El Melha",
+      "price": 45
+    },
+    {
+      "name": "Khenichet",
+      "price": 45
+    },
+    {
+      "name": "Khemis Des Zemamra",
+      "price": 39
+    },
+    {
+      "name": "Sidi Smaïl",
+      "price": 45
+    },
+    {
+      "name": "Oulad Frej",
+      "price": 45
+    },
+    {
+      "name": "Bir Jdid",
+      "price": 45
+    },
+    {
+      "name": "Bab Marzouka",
+      "price": 45
+    },
+    {
+      "name": "Marnissa",
+      "price": 45
+    },
+    {
+      "name": "Oulad Abbou",
+      "price": 45
+    },
+    {
+      "name": "Oulad Said Région de Settat",
+      "price": 45
+    },
+    {
+      "name": "El Borouj Région de Settat",
+      "price": 45
+    },
+    {
+      "name": "Sidi Hajjaj Région de Settat",
+      "price": 45
+    },
+    {
+      "name": "Ras El Ain Région de Settat",
+      "price": 45
+    },
+    {
+      "name": "Ain Mediouna",
+      "price": 45
+    },
+    {
+      "name": "Guisser",
+      "price": 45
+    },
+    {
+      "name": "Sebt Ben Sassi",
+      "price": 45
+    },
+    {
+      "name": "Tiddas",
+      "price": 45
+    },
+    {
+      "name": "Ouazzane",
+      "price": 45
+    },
+    {
+      "name": "Sidi Allal Tazi",
+      "price": 45
+    },
+    {
+      "name": "Moulay Bousselham",
+      "price": 45
+    },
+    {
+      "name": "Lalla Mimouna",
+      "price": 45
+    },
+    {
+      "name": "Dlalha",
+      "price": 45
+    },
+    {
+      "name": "Sebt Jahjouhe",
+      "price": 45
+    },
+    {
+      "name": "Bouderbala",
+      "price": 45
+    },
+    {
+      "name": "Oulmès",
+      "price": 45
+    },
+    {
+      "name": "Rommani",
+      "price": 39
+    },
+    {
+      "name": "Boumalen dades",
+      "price": 45
+    },
+    {
+      "name": "Kelaat M'Gouna",
+      "price": 45
+    },
+    {
+      "name": "Skoura",
+      "price": 45
+    },
+    {
+      "name": "Agdz (zagoura)",
+      "price": 45
+    },
+    {
+      "name": "Zagoura",
+      "price": 45
+    },
+    {
+      "name": "Taznakht",
+      "price": 45
+    },
+    {
+      "name": "Tinghir",
+      "price": 45
+    },
+    {
+      "name": "Tinejdad",
+      "price": 45
+    },
+    {
+      "name": "Errachidia",
+      "price": 45
+    },
+    {
+      "name": "Goulmima",
+      "price": 45
+    },
+    {
+      "name": "Boufakrane",
+      "price": 45
+    },
+    {
+      "name": "Agourai",
+      "price": 45
+    },
+    {
+      "name": "El Hajeb",
+      "price": 45
+    },
+    {
+      "name": "Ifran",
+      "price": 45
+    },
+    {
+      "name": "Ain Leuh",
+      "price": 45
+    },
+    {
+      "name": "Ain-Cheggag",
+      "price": 45
+    },
+    {
+      "name": "Imouzzer du Kandar",
+      "price": 45
+    },
+    {
+      "name": "Tahla",
+      "price": 45
+    },
+    {
+      "name": "Ain Aicha",
+      "price": 45
+    },
+    {
+      "name": "Tissa",
+      "price": 45
+    },
+    {
+      "name": "Sefrou",
+      "price": 45
+    },
+    {
+      "name": "Outat El Haj",
+      "price": 45
+    },
+    {
+      "name": "Missour",
+      "price": 45
+    },
+    {
+      "name": "Boumia",
+      "price": 45
+    },
+    {
+      "name": "Zaida",
+      "price": 45
+    },
+    {
+      "name": "Jerada",
+      "price": 45
+    },
+    {
+      "name": "Taourirt",
+      "price": 45
+    },
+    {
+      "name": "Ahfir",
+      "price": 45
+    },
+    {
+      "name": "Beni Drar",
+      "price": 45
+    },
+    {
+      "name": "Aïn-Béni-Mathar",
+      "price": 45
+    },
+    {
+      "name": "El Aïoun Charqiya",
+      "price": 45
+    },
+    {
+      "name": "Tendrara",
+      "price": 45
+    },
+    {
+      "name": "Bouârfa",
+      "price": 45
+    },
+    {
+      "name": "Figuig",
+      "price": 45
+    },
+    {
+      "name": "Targuist",
+      "price": 45
+    },
+    {
+      "name": "Issaguen",
+      "price": 45
+    },
+    {
+      "name": "Bni Hadifa",
+      "price": 45
+    },
+    {
+      "name": "Bni Bouayach",
+      "price": 45
+    },
+    {
+      "name": "Imzouren",
+      "price": 45
+    },
+    {
+      "name": "Bab Taza",
+      "price": 45
+    },
+    {
+      "name": "Tizi Ouasli",
+      "price": 45
+    },
+    {
+      "name": "Boured",
+      "price": 45
+    },
+    {
+      "name": "Oued laou",
+      "price": 45
+    },
+    {
+      "name": "Ksar Sghir",
+      "price": 45
+    },
+    {
+      "name": "Belyounech",
+      "price": 45
+    },
+    {
+      "name": "Azla",
+      "price": 45
+    },
+    {
+      "name": "Bni Ahmed Cherqia",
+      "price": 45
+    },
+    {
+      "name": "El Jebeha",
+      "price": 45
+    },
+    {
+      "name": "Stehat",
+      "price": 45
+    },
+    {
+      "name": "Ben Karrich",
+      "price": 45
+    },
+    {
+      "name": "Gueznaia",
+      "price": 45
+    },
+    {
+      "name": "Ghafsai",
+      "price": 45
+    },
+    {
+      "name": "Midar",
+      "price": 45
+    },
+    {
+      "name": "Driouch",
+      "price": 45
+    },
+    {
+      "name": "Ben Taieb",
+      "price": 45
+    },
+    {
+      "name": "Tiztoutine",
+      "price": 45
+    },
+    {
+      "name": "Beni Chiker",
+      "price": 45
+    },
+    {
+      "name": "Kassita",
+      "price": 45
+    },
+    {
+      "name": "Telat Azlaf",
+      "price": 45
+    },
+    {
+      "name": "Tamsamane",
+      "price": 45
+    },
+    {
+      "name": "Boudinar",
+      "price": 45
+    },
+    {
+      "name": "Dar-El Kebdani",
+      "price": 45
+    },
+    {
+      "name": "Kariat Arekmane",
+      "price": 45
+    },
+    {
+      "name": "Beni Sidal Jbel",
+      "price": 45
+    },
+    {
+      "name": "Mariouari",
+      "price": 45
+    },
+    {
+      "name": "Aklim",
+      "price": 45
+    },
+    {
+      "name": "Zaio",
+      "price": 45
+    },
+    {
+      "name": "Al Aaroui",
+      "price": 45
+    },
+    {
+      "name": "Alhucemas / Al Hoceima",
+      "price": 39
+    },
+    {
+      "name": "Ajdir (al hoceima)",
+      "price": 45
+    },
+    {
+      "name": "Boukidaren",
+      "price": 45
+    },
+    {
+      "name": "Ait-Kamara",
+      "price": 45
+    },
+    {
+      "name": "Nkoub",
+      "price": 45
+    },
+    {
+      "name": "Fezouata",
+      "price": 45
+    },
+    {
+      "name": "M'Hamid El Ghizlane",
+      "price": 45
+    },
+    {
+      "name": "Tazarine",
+      "price": 45
+    },
+    {
+      "name": "Tagounite",
+      "price": 45
+    },
+    {
+      "name": "Bleida",
+      "price": 45
+    },
+    {
+      "name": "Beni zoli",
+      "price": 45
+    },
+    {
+      "name": "Tamegroute",
+      "price": 45
+    },
+    {
+      "name": "Ighrem N'ougdal",
+      "price": 45
+    },
+    {
+      "name": "Anzal",
+      "price": 45
+    },
+    {
+      "name": "Timedline",
+      "price": 45
+    },
+    {
+      "name": "Tabounte Ouarzazate",
+      "price": 45
+    },
+    {
+      "name": "Agouim",
+      "price": 45
+    },
+    {
+      "name": "Amerzgane",
+      "price": 45
+    },
+    {
+      "name": "Aït Ben Haddou",
+      "price": 45
+    },
+    {
+      "name": "Asni",
+      "price": 45
+    },
+    {
+      "name": "Agafay",
+      "price": 45
+    },
+    {
+      "name": "Belaaguid",
+      "price": 45
+    },
+    {
+      "name": "Ourika",
+      "price": 45
+    },
+    {
+      "name": "Ait ourir",
+      "price": 45
+    },
+    {
+      "name": "Tameslouht",
+      "price": 45
+    },
+    {
+      "name": "Sidi Abdellah Ghiyat",
+      "price": 45
+    },
+    {
+      "name": "Mejjat - Région de Marrakech",
+      "price": 45
+    },
+    {
+      "name": "Mzoudia",
+      "price": 45
+    },
+    {
+      "name": "Sid L'Mokhtar",
+      "price": 45
+    },
+    {
+      "name": "Imintanout",
+      "price": 45
+    },
+    {
+      "name": "Sidi bou zid Chichaoua",
+      "price": 45
+    },
+    {
+      "name": "Aoulouz",
+      "price": 45
+    },
+    {
+      "name": "Essemara",
+      "price": 45
+    },
+    {
+      "name": "Sakia El hamra",
+      "price": 45
+    },
+    {
+      "name": "Sidi Ifni",
+      "price": 45
+    },
+    {
+      "name": "Sidi Bibi",
+      "price": 45
+    },
+    {
+      "name": "Mirleft",
+      "price": 45
+    },
+    {
+      "name": "Belfaa",
+      "price": 45
+    },
+    {
+      "name": "Taghazout",
+      "price": 45
+    },
+    {
+      "name": "Tamraght",
+      "price": 45
+    },
+    {
+      "name": "Loulad",
+      "price": 45
+    },
+    {
+      "name": "Ouled Dahhou",
+      "price": 45
+    },
+    {
+      "name": "Azrou Région Agadir",
+      "price": 45
+    },
+    {
+      "name": "Smimou",
+      "price": 45
+    },
+    {
+      "name": "Tamanar",
+      "price": 45
+    },
+    {
+      "name": "Sidi Kaouki",
+      "price": 45
+    },
+    {
+      "name": "Had Draa",
+      "price": 45
+    },
+    {
+      "name": "Meskala",
+      "price": 45
+    },
+    {
+      "name": "Demnate",
+      "price": 45
+    },
+    {
+      "name": "Azilal",
+      "price": 45
+    },
+    {
+      "name": "El Ksiba",
+      "price": 45
+    },
+    {
+      "name": "Timahdite",
+      "price": 45
+    },
+    {
+      "name": "El Kebab",
+      "price": 45
+    },
+    {
+      "name": "Boulman",
+      "price": 45
+    },
+    {
+      "name": "Ain Taoujdate",
+      "price": 45
+    },
+    {
+      "name": "Azrou Région de Fès-Meknès",
+      "price": 45
+    },
+    {
+      "name": "Ouislane",
+      "price": 45
+    },
+    {
+      "name": "Skhinate",
+      "price": 45
+    },
+    {
+      "name": "Mejat Région de Fès-Meknès",
+      "price": 45
+    },
+    {
+      "name": "Moulay Idriss zerhouni",
+      "price": 45
+    },
+    {
+      "name": "Boujdour",
+      "price": 45
+    },
+    {
+      "name": "Tan-Tan",
+      "price": 45
+    },
+    {
+      "name": "Sidi Addi",
+      "price": 45
+    },
+    {
+      "name": "Er-Rich",
+      "price": 45
+    },
+    {
+      "name": "Alnif",
+      "price": 45
+    },
+    {
+      "name": "Msemrir",
+      "price": 45
+    },
+    {
+      "name": "Aoufous",
+      "price": 45
+    },
+    {
+      "name": "Bejaad",
+      "price": 39
+    },
+    {
+      "name": "Tata",
+      "price": 45
+    }
+  ]
+}

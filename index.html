@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ayora Parfum — L'Art du Parfum au Maroc. Fragrances d'exception livrées partout au Maroc.">
+  <title>Ayora Parfum | عطور فاخرة بالمغرب</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* City search styles */
+    .city-search-wrap {
+      position: relative;
+    }
+    .city-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 8px 8px;
+      max-height: 220px;
+      overflow-y: auto;
+      z-index: 999;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      display: none;
+    }
+    .city-option {
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+      transition: background 0.15s;
+    }
+    .city-option:hover {
+      background: rgba(201,169,110,0.08);
+    }
+    .delivery-info-badge {
+      display: none;
+      font-size: 0.75rem;
+      color: var(--gold);
+      background: rgba(201,169,110,0.08);
+      border: 1px solid rgba(201,169,110,0.3);
+      border-radius: 6px;
+      padding: 8px 12px;
+      margin-top: 6px;
+      text-align: center;
+    }
+    .cart-subtotal-row,
+    .cart-delivery-row {
+      display: none;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px dashed var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loading-screen">
+  <div class="loading-logo">AYORA</div>
+  <div class="loading-bar-wrap">
+    <div class="loading-bar"></div>
+  </div>
+  <div style="font-size:0.6rem;letter-spacing:0.5em;color:rgba(201,169,110,0.5);text-transform:uppercase">Parfum</div>
+</div>
+
+<div id="overlay"></div>
+<div class="toast" id="toast"></div>
+
+<a href="https://wa.me/212623892123" id="wa-float" class="whatsapp-float" target="_blank" rel="noopener" title="WhatsApp">
+  💬
+</a>
+
+<nav class="mobile-menu" id="mobile-menu"></nav>
+
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" id="nav-logo-text">AYORA <span>PARFUM</span></a>
+    <ul class="nav-links" id="nav-links"></ul>
+    <div class="nav-actions">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="ar">ع</button>
+      </div>
+      <button class="cart-btn" onclick="openCart()" title="Panier">
+        🛍️
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+      <button class="menu-toggle" onclick="openMobileMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="seasonal-strip" style="position:sticky;top:var(--nav-h);z-index:99">
+  <span class="seasonal-scroll" id="seasonal-text">
+    Livraison partout au Maroc 🚚 · Échantillons gratuits 🎁 · توصيل في جميع أنحاء المغرب 🚚
+  </span>
+</div>
+
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div style="position:absolute;right:8%;top:50%;transform:translateY(-50%);opacity:0.06;font-size:22rem;line-height:1;pointer-events:none;user-select:none" aria-hidden="true">🫧</div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">✦ Ayora Parfum · المغرب ✦</div>
+    <h1 class="hero-title" id="hero-headline">
+      Découvrez Votre<br><em>Signature Olfactive</em>
+    </h1>
+    <p class="hero-sub" id="hero-sub">Des fragrances d'exception, livrées au cœur du Maroc</p>
+    <div class="hero-cta-group">
+      <a href="#products" class="btn-primary" id="hero-cta"><span>Explorer la Collection</span></a>
+      <a href="#quiz-section" class="btn-secondary" id="hero-cta2">Quiz Olfactif</a>
+    </div>
+    <div style="margin-top:40px;font-size:0.65rem;letter-spacing:0.3em;color:rgba(201,169,110,0.6);text-transform:uppercase" id="hero-delivery">
+      Livraison partout au Maroc 🚚
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<div class="filter-bar" id="filter-bar">
+  <div class="filter-inner" id="filter-controls"></div>
+</div>
+
+<main id="products">
+  <div class="section">
+    <div class="section-header">
+      <div class="section-eyebrow" id="products-section-eyebrow">Parfums</div>
+      <h2 class="section-title font-serif" id="products-section-title">Notre <em>Collection</em></h2>
+      <div class="divider"></div>
+      <p class="section-sub">Des créations d'exception des plus grandes maisons mondiales</p>
+    </div>
+    <div class="products-grid" id="products-grid"></div>
+  </div>
+</main>
+
+<!-- PRODUCT DETAIL MODAL -->
+<div id="product-modal" role="dialog" aria-modal="true">
+  <button class="modal-close" onclick="closeModal()" aria-label="Fermer">✕</button>
+  <div class="modal-content">
+    <div class="modal-img-side">
+      <img id="modal-img" src="" alt="Parfum" style="width:100%;height:100%;object-fit:cover">
+    </div>
+    <div class="modal-info">
+      <div class="modal-brand" id="modal-brand"></div>
+      <div class="modal-name" id="modal-name"></div>
+      <p class="modal-desc" id="modal-desc"></p>
+      <div class="notes-grid">
+        <div class="note-col">
+          <div class="note-icon">🌿</div>
+          <div class="note-label" id="modal-note-top-label">Notes de Tête</div>
+          <div class="note-val" id="modal-note-top-val"></div>
+        </div>
+        <div class="note-col">
+          <div class="note-icon">🌸</div>
+          <div class="note-label" id="modal-note-heart-label">Notes de Cœur</div>
+          <div class="note-val" id="modal-note-heart-val"></div>
+        </div>
+        <div class="note-col">
+          <div class="note-icon">🌳</div>
+          <div class="note-label" id="modal-note-base-label">Notes de Fond</div>
+          <div class="note-val" id="modal-note-base-val"></div>
+        </div>
+      </div>
+      <div class="intensity-wrap">
+        <div class="intensity-label" id="modal-intensity-label">Intensité</div>
+        <div class="intensity-bar">
+          <div class="intensity-fill" id="modal-intensity-fill" style="width:0%"></div>
+        </div>
+        <div class="intensity-range"><span>Légère</span><span>Intense</span></div>
+      </div>
+      <div class="meta-tags">
+        <span class="meta-tag" id="modal-longevity"></span>
+        <span class="meta-tag" id="modal-family"></span>
+      </div>
+      <div class="size-selector">
+        <div class="size-label">Choisir la taille</div>
+        <div class="size-options" id="modal-sizes"></div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-primary" id="modal-add-btn" style="flex:1;text-align:center"><span>Ajouter au panier</span></button>
+        <a href="https://wa.me/212623892123" target="_blank" class="btn-secondary" style="padding:15px 16px;font-size:0.7rem">💬 WhatsApp</a>
+      </div>
+      <div id="modal-similar" style="margin-top:32px"></div>
+    </div>
+  </div>
+</div>
+
+<!-- SCENT GUIDE -->
+<section id="guide" style="background:var(--purple-dark)">
+  <div class="section">
+    <div class="section-header">
+      <div class="section-eyebrow" id="guide-eyebrow" style="color:var(--gold)">Apprendre</div>
+      <h2 class="section-title font-serif" id="guide-title" style="color:white">Guide <em>Olfactif</em></h2>
+      <div class="divider"></div>
+      <p class="section-sub" style="color:rgba(255,255,255,0.5)">Comprendre les familles de parfums pour mieux choisir</p>
+    </div>
+    <div class="guide-grid" id="guide-grid"></div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz-section" style="background:var(--off-white)">
+  <div class="section">
+    <div class="section-header">
+      <div class="section-eyebrow" id="quiz-eyebrow">Découvrez votre parfum</div>
+      <h2 class="section-title font-serif" id="quiz-main-title">Quiz <em>Olfactif</em></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="quiz-wrap">
+      <div class="quiz-card" id="quiz-card-inner">
+        <div style="text-align:center;padding:48px">
+          <div style="font-family:var(--font-serif);font-size:1.5rem;color:var(--purple);font-style:italic;margin-bottom:24px">
+            Quel est votre parfum idéal?
+          </div>
+          <button class="btn-primary" onclick="renderQuizStep()"><span>Commencer le Quiz</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="https://images.unsplash.com/photo-1619994403073-2cec844b8e63?w=900&q=90" alt="Ayora Parfum" loading="lazy">
+        <div class="about-img-deco"></div>
+      </div>
+      <div class="about-text-side">
+        <div class="about-eyebrow" id="about-eyebrow">Notre Histoire</div>
+        <h2 class="about-title font-serif" id="about-title">L'Art du <em>Parfum</em> au Maroc</h2>
+        <div class="divider" style="margin:0 0 24px 0"></div>
+        <p class="about-text" id="about-text"></p>
+        <div style="margin-top:32px">
+          <a href="https://wa.me/212623892123" class="btn-primary" target="_blank">
+            <span>💬 Nous contacter</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" style="background:var(--purple-dark);padding:80px 48px 40px">
+  <div class="contact-inner">
+    <h2 class="contact-title" id="contact-title">Restons <em>en Contact</em></h2>
+    <div style="font-size:0.85rem;color:var(--gold);letter-spacing:0.3em;margin-bottom:40px;text-transform:uppercase" id="contact-delivery">
+      Livraison partout au Maroc 🚚
+    </div>
+    <div class="contact-links">
+      <a href="https://wa.me/212623892123" class="contact-link" target="_blank" rel="noopener">
+        <span class="contact-link-icon">💬</span>
+        <span id="contact-wa-text">WhatsApp</span>
+      </a>
+      <a href="tel:0623892123" class="contact-link">
+        <span class="contact-link-icon">📞</span>
+        <span id="contact-phone-text">0623892123</span>
+      </a>
+      <a href="https://www.tiktok.com/@ayora.parfum" class="contact-link" target="_blank" rel="noopener">
+        <span class="contact-link-icon">🎵</span>
+        <span id="contact-tiktok-text">@ayora.parfum</span>
+      </a>
+    </div>
+    <div class="footer-bottom">
+      <span id="footer-copy">© 2025 Ayora Parfum. Tous droits réservés.</span>
+      <div class="social-links">
+        <a href="https://www.tiktok.com/@ayora.parfum" class="social-link" target="_blank">TikTok</a>
+        <a href="https://wa.me/212623892123" class="social-link" target="_blank">WhatsApp</a>
+      </div>
+      <span style="color:rgba(201,169,110,0.3)">Made with ❤️ in Maroc</span>
+    </div>
+  </div>
+</footer>
+
+<!-- CART SIDEBAR -->
+<aside id="cart-sidebar" role="complementary" aria-label="Panier">
+  <div class="cart-header">
+    <div class="cart-title" id="cart-title">Mon Panier</div>
+    <button class="cart-close" onclick="closeCart()" aria-label="Fermer">✕</button>
+  </div>
+  <div class="cart-items" id="cart-items">
+    <div class="cart-empty">
+      <div class="cart-empty-icon">🛍️</div>
+      <div id="cart-empty-label">Votre panier est vide</div>
+    </div>
+  </div>
+  <div class="cart-footer" id="cart-footer">
+    <!-- Subtotal + delivery rows -->
+    <div class="cart-subtotal-row" id="cart-subtotal-row">
+      <span>Sous-total</span>
+      <span id="cart-subtotal-val">0 MAD</span>
+    </div>
+    <div class="cart-delivery-row" id="cart-delivery-row">
+      <span>🚚 Livraison</span>
+      <span id="cart-delivery-val">0 MAD</span>
+    </div>
+    <div class="cart-total-row">
+      <span class="cart-total-label" id="cart-total-label">Total</span>
+      <span class="cart-total-val" id="cart-total">0 MAD</span>
+    </div>
+
+    <!-- Checkout form -->
+    <div class="checkout-form">
+      <div class="form-group">
+        <label class="form-label" for="order-name">Nom complet / الاسم الكامل</label>
+        <input class="form-input" id="order-name" type="text" placeholder="Votre nom...">
+      </div>
+
+      <!-- City search with dropdown -->
+      <div class="form-group">
+        <label class="form-label">Ville / المدينة</label>
+        <div class="city-search-wrap">
+          <input class="form-input" id="order-city-display" type="text"
+            placeholder="Rechercher votre ville... / ابحث عن مدينتك..."
+            oninput="onCitySearch(this.value)" autocomplete="off">
+          <input type="hidden" id="order-city-select">
+          <div class="city-dropdown" id="city-dropdown"></div>
+        </div>
+        <div class="delivery-info-badge" id="delivery-info"></div>
+      </div>
+
+      <!-- Exact address -->
+      <div class="form-group">
+        <label class="form-label" for="order-address">Adresse exacte / العنوان بالتفصيل</label>
+        <input class="form-input" id="order-address" type="text" placeholder="Rue, quartier, N°...">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="order-phone">Téléphone / الهاتف</label>
+        <input class="form-input" id="order-phone" type="tel" placeholder="06XXXXXXXX">
+      </div>
+    </div>
+
+    <div id="checkout-hint" style="display:none;align-items:center;gap:10px;background:rgba(37,211,102,0.1);border:1px solid rgba(37,211,102,0.4);border-radius:6px;padding:10px 14px;margin-bottom:10px;font-size:0.78rem;color:#1a7a40">
+      <span style="font-size:1.3rem;animation:bounceArrow 0.8s ease-in-out infinite alternate;display:inline-block">👇</span>
+      <span id="checkout-hint-text">Appuyez pour finaliser votre commande !</span>
+    </div>
+    <button class="whatsapp-order" id="checkout-btn" onclick="sendWhatsAppOrder()">
+      ✅ Confirmer la commande
+    </button>
+  </div>
+</aside>
+
+<script>
+// Inline data fallback — used when fetch('data.json') fails on GitHub Pages
+// This ensures the site always works even without a server
+window.__AYORA_DATA__ = null; // Will be replaced by the fetch, kept as safety net
+</script>
+<script src="app.js" defer></script>
+</body>
+</html>
